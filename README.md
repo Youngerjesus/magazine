@@ -13,3 +13,5 @@
 - [토스ㅣSLASH 22 - Java Native Memory Leak 원인을 찾아서](documents/토스_SLASH_22_Java_Native_Memory_Leak_원인을_찾아서.md)
 
 - [토스| SLASH 22 - 지속 성장 가능한 코드를 만들어가는 방법](documents/토스_SLASH_22_지속_성장_가능한_코드를_만들어가는_방법.md)
+
+- [가장 똑똑한 소프트웨어 엔지니어에게 배운 10가지 교훈](documents/가장_똑똑한_소프트웨어_엔지니어에게_배운_10가지_교훈.md)
