@@ -17,3 +17,8 @@
 - [가장 똑똑한 소프트웨어 엔지니어에게 배운 10가지 교훈](documents/가장_똑똑한_소프트웨어_엔지니어에게_배운_10가지_교훈.md)
 
 - [지속 가능한 소프트웨어 설계 패턴: 포트와 어댑터 아키텍처 적용하기](documents/지속_가능한_소프트웨어_설계_패턴.md)
+
+- [MySQL JSON vs TEXT](documents/MySQL_JSON_vs_TEXT.md)
+
+- [Think Twice Before Using Java 8 Parallel Streams](documents/Think%20Twice%20Before%20Using%20Java%208%20Parallel%20Streams.md)
+
