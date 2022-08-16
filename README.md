@@ -22,3 +22,4 @@
 
 - [Think Twice Before Using Java 8 Parallel Streams](documents/Think%20Twice%20Before%20Using%20Java%208%20Parallel%20Streams.md)
 
+- [Ten Java coding antipatterns to avoid: Worst practices #5 through #1](documents/Ten Java coding antipatterns to avoid: Worst practices #5 through #1.md)
