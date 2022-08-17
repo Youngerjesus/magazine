@@ -23,3 +23,5 @@
 - [Think Twice Before Using Java 8 Parallel Streams](documents/Think%20Twice%20Before%20Using%20Java%208%20Parallel%20Streams.md)
 
 - [Ten Java coding antipatterns to avoid: Worst practices #5 through #1](documents/Ten_Java_coding_antipatterns_to_avoid:_Worst_practices_5_through_1.md)
+
+- [MySQL Connection Handling and Scaling](documents/MySQL%20Connection%20Handling%20and%20Scaling.md)
