@@ -44,6 +44,29 @@ https://www.mongodb.com/docs/manual/core/transactions/#std-label-transactions-wr
     - `causally consistent session` 이 아닌 경우
       - 트랜잭션 시작 전에 `write concern: majority` 를 따른다.
     - `causally consistent session` 은 세션이 시작되고 연산이 진행된 경우를 말한다.
+    - `causally consistent session` 은 클라이언트 입장에서 데이터를 보내고 받을 때 하나의 세션을 쓰는데 거기서 일관성을 맞추는 경우를 말한다. 
+      - 예로 이전 연산이 문서를 다 지우고 다음 연산이 결과를 읽는 거라면 결과가 없어야 결과적 일관성어 맞춰지는 것이다.  
+      - 몽고 DB 3.6 부터 이 기능이 지원되었고 Read, Write 모두 `majority` 여야한다. 그리고 어플리케이션에서 하나의 스레드가 이 세션속에서 명령을 보낸다.
+
+#### Causal Consistent Session Example
+
+```java
+ClientSession session1 = client.startSession(ClientSessionOptions.builder().causallyConsistent(true).build());
+Date currentDate = new Date();
+MongoCollection<Document> items = client.getDatabase("test")
+        .withReadConcern(ReadConcern.MAJORITY)
+        .withWriteConcern(WriteConcern.MAJORITY.withWTimeout(1000, TimeUnit.MILLISECONDS))
+        .getCollection("test");
+items.updateOne(session1, eq("sku", "111"), set("end", currentDate));
+Document document = new Document("sku", "nuts-111")
+        .append("name", "Pecans")
+        .append("start", currentDate);
+items.insertOne(session1, document);
+```
+
+- `client.startSession` 으로 열어야하네.
+
+
 - 트랜잭션에서 기본은 `session-level read concern` 이다.
   - 기본적으로 `local` 이다. 
 - 트랜잭션에서는 트랜잭션에서 설정란 `read concern` 이 적용된다. 데이터베이스, 컬렉션 수준의 `read concern` 이 아니라.
