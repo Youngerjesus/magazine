@@ -45,3 +45,5 @@
 - [Performance Best Practices: Hardware and OS Configuration](documents/Performance%20Best%20Practices%20Hardware%20and%20OS%20Configuration.md)
 
 - [Read Isolation, Consistency, and Recency](documents/Read%20Isolation,%20Consistency,%20and%20Recency.md)
+
+- [Performance Best Practices: MongoDB Data Modeling and Memory Sizing](documents/Performance Best Practices MongoDB Data Modeling and Memory Sizing.md)
