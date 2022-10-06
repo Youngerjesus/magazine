@@ -34,6 +34,8 @@
 
 - [Mono.just() vs defer() vs fromSupplier() vs create() – Part 1](documents/mono-just-defer-fromsupplier-create-part-1.md)
 
+- [Mono.just() vs defer() vs fromSupplier() vs create() – Part 2](documents/Mono.just()%20vs%20defer()%20vs%20fromSupplier()%20vs%20create()%20–%20Part%202.md)
+
 - [MongoDB Connection Options](documents/MongoDB_Connection%20Options.md)
 
 - [Specify MongoClient Settings](documents/Specify%20MongoClient%20Settings.md)
