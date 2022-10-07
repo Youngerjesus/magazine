@@ -51,3 +51,5 @@
 - [Performance Best Practices: MongoDB Data Modeling and Memory Sizing](documents/Performance%20Best%20Practices%20MongoDB%20Data%20Modeling%20and%20Memory%20Sizing.md)
 
 - [Performance Best Practices: Query Patterns and Profiling](documents/Performance%20Best%20Practices%20Query%20Patterns%20and%20Profiling.md)
+
+- [The notorious database cache hit ratio](documents/The%20notorious%20database%20cache%20hit%20ratio.md)
