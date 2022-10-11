@@ -53,3 +53,7 @@
 - [Performance Best Practices: Query Patterns and Profiling](documents/Performance%20Best%20Practices%20Query%20Patterns%20and%20Profiling.md)
 
 - [The notorious database cache hit ratio](documents/The%20notorious%20database%20cache%20hit%20ratio.md)
+
+- [How does the WiredTiger cache eviction process work](documents/How%20does%20the%20WiredTiger%20cache%20eviction%20process%20work.md)
+
+- [how data gets stored inside WiredTiger](documents/how%20data%20gets%20stored%20inside%20WiredTiger.md)
